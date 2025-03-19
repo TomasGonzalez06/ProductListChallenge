@@ -26,7 +26,7 @@ body{
     font-style: normal;
     font-size: 16px;
     font-weight: var(--light-text);
-    background-color: var(--Rose-50);
+    background-color: var(--Rose-100);
   }
 
 .products-list
@@ -45,6 +45,9 @@ body{
 {
     width: 33.33%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .image-container
@@ -55,10 +58,42 @@ body{
 .image-container img
 {
     width: 100%;
+    border-radius: 10px;
 }
 
 .product-information
 {
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
+.product-information .category
+{
+    color: var(--Rose-500);
+    font-weight: var(--light-text);
+}
+.product-information .product-name
+{
+    color: var(--Rose-900);
+    font-weight: var(--medium-text);
+}
+.product-information .product-price
+{
+    color: var(--Red);
+    font-weight: var(--medium-text);
+}
+.add-to-cart
+{
+    background-color: white;
+    border-color: var(--Rose-300);
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    padding: 7px;
+    justify-content: space-evenly;
+
+}
+
