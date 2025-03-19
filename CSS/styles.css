@@ -14,6 +14,11 @@
     --bold-text: 700;
 }
 
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: "Red Hat Text", sans-serif;
@@ -23,3 +28,37 @@ body{
     font-weight: var(--light-text);
     background-color: var(--Rose-50);
   }
+
+.products-list
+{
+    width: 70%;
+}
+
+.cards-container
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    width: 33.33%;
+    position: relative;
+}
+
+.image-container
+{
+    width: 60%;
+}
+
+.image-container img
+{
+    width: 100%;
+}
+
+.product-information
+{
+    display: flex;
+    flex-direction: column;
+}
