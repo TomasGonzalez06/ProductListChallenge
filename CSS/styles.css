@@ -56,6 +56,7 @@ body{
 
 .card
 {
+    position: relative;
     width: min-content;
 
     margin: 10px;
@@ -64,6 +65,7 @@ body{
 .image-container
 {
     width: 60%;
+    position: relative;
 }
 
 .image-container img
@@ -77,6 +79,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-top: 20px;
 }
 .product-information .category
 {
@@ -102,6 +105,8 @@ body{
 }
 .add-to-cart
 {
+    position:absolute;
+    bottom: 68px;
     background-color: white;
     border-color: var(--Rose-300);
     border-width: 1px;
